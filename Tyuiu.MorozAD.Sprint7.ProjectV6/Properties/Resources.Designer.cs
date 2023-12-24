@@ -63,6 +63,16 @@ namespace Tyuiu.MorozAD.Sprint7.ProjectV6.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _123 {
+            get {
+                object obj = ResourceManager.GetObject("123", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap kartinki_znak_voprosa_31 {
             get {
                 object obj = ResourceManager.GetObject("kartinki-znak-voprosa-31", resourceCulture);

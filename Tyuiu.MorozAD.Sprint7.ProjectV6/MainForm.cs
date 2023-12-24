@@ -20,7 +20,13 @@ namespace Tyuiu.MorozAD.Sprint7.ProjectV6
         {
             FormPatient formPatients = new FormPatient();
             formPatients.ShowDialog();
-            this.Close();
+            
+        }
+
+        private void buttonAbout_Click(object sender, EventArgs e)
+        {
+            FormAbout formAbout = new FormAbout();
+            formAbout.ShowDialog();
         }
     }
 }

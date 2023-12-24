@@ -28,7 +28,7 @@ namespace Tyuiu.MorozAD.Sprint7.ProjectV6
             dlg.ShowDialog();
             textBoxPat_MAD.Text = dlg.FileName;
         }
-        public List<Patient> LoadCSV(string csvFile) 
+        public List<Patient> LoadCSV(string csvFile)
         {
             var q = from l in File.ReadAllLines(csvFile)
                     let data = l.Split(';')
@@ -43,22 +43,38 @@ namespace Tyuiu.MorozAD.Sprint7.ProjectV6
             return q.ToList();
         }
 
-      
+        private void buttonSave_Click(object sender, EventArgs e)
+        {
+            saveFileDialog_MAD.FileName = "Patient.csv";
+            saveFileDialog_MAD.InitialDirectory = Directory.GetCurrentDirectory();
+            saveFileDialog_MAD.ShowDialog();
+        }
+
+        public class Patient
+        {
+            public int Num { get; set; }
+
+            public string Name { get; set; }
+
+            public string SureName { get; set; }
+
+            public string LastName { get; set; }
+
+            public double Birthday { get; set; }
+
+
+
+        }
+
+        private void buttonInfoLayer_MAD_Click(object sender, EventArgs e)
+        {
+            FormPHelp formPHelp = new FormPHelp();
+            formPHelp.ShowDialog();
+        }
+
+        private void buttonBack_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
-    public class Patient
-    {
-        public int Num { get; set; }
-
-        public string Name { get; set; }
-
-        public string SureName { get; set; }
-
-        public string LastName { get; set; }
-
-        public double Birthday{ get; set; }
-
-
-
-    }
-
 }

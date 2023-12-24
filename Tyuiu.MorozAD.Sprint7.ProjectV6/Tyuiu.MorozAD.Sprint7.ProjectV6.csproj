@@ -46,11 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAbout.Designer.cs">
+      <DependentUpon>FormAbout.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormPatient.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormPatient.Designer.cs">
       <DependentUpon>FormPatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPHelp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPHelp.Designer.cs">
+      <DependentUpon>FormPHelp.cs</DependentUpon>
     </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
@@ -60,8 +72,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormAbout.resx">
+      <DependentUpon>FormAbout.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormPatient.resx">
       <DependentUpon>FormPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPHelp.resx">
+      <DependentUpon>FormPHelp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
@@ -91,6 +109,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\kartinki-znak-voprosa-31.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\123.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
