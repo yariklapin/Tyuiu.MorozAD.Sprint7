@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Tyuiu.MorozAD.Sprint7.ProjectV6
 {
-    public partial class FormDoctor : Form
+    public partial class FormDoctor2 : Form
     {
-        public FormDoctor()
+        public FormDoctor2()
         {
             InitializeComponent();
         }

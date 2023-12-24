@@ -33,6 +33,7 @@ namespace Tyuiu.MorozAD.Sprint7.ProjectV6
             this.buttonAbout = new System.Windows.Forms.Button();
             this.buttonDoctor = new System.Windows.Forms.Button();
             this.buttonPat_MAD = new System.Windows.Forms.Button();
+            this.buttonClose = new System.Windows.Forms.Button();
             this.panelMain_MAD.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -40,6 +41,7 @@ namespace Tyuiu.MorozAD.Sprint7.ProjectV6
             // 
             this.panelMain_MAD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.panelMain_MAD.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelMain_MAD.Controls.Add(this.buttonClose);
             this.panelMain_MAD.Controls.Add(this.buttonAbout);
             this.panelMain_MAD.Controls.Add(this.buttonDoctor);
             this.panelMain_MAD.Controls.Add(this.buttonPat_MAD);
@@ -85,6 +87,17 @@ namespace Tyuiu.MorozAD.Sprint7.ProjectV6
             this.buttonPat_MAD.UseVisualStyleBackColor = false;
             this.buttonPat_MAD.Click += new System.EventHandler(this.buttonPatients_MAD_Click);
             // 
+            // buttonClose
+            // 
+            this.buttonClose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.buttonClose.Location = new System.Drawing.Point(677, 408);
+            this.buttonClose.Name = "buttonClose";
+            this.buttonClose.Size = new System.Drawing.Size(123, 42);
+            this.buttonClose.TabIndex = 3;
+            this.buttonClose.Text = "Закрыть";
+            this.buttonClose.UseVisualStyleBackColor = false;
+            this.buttonClose.Click += new System.EventHandler(this.buttonClose_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -104,6 +117,7 @@ namespace Tyuiu.MorozAD.Sprint7.ProjectV6
         private System.Windows.Forms.Button buttonAbout;
         private System.Windows.Forms.Button buttonDoctor;
         private System.Windows.Forms.Button buttonPat_MAD;
+        private System.Windows.Forms.Button buttonClose;
     }
 }
 

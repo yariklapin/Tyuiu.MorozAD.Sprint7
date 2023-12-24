@@ -46,48 +46,78 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormAbout.cs">
+    <Compile Include="Forms\FormDoctor3.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormAbout.Designer.cs">
+    <Compile Include="Forms\FormDoctor3.Designer.cs">
+      <DependentUpon>FormDoctor3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormDoctor4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormDoctor4.Designer.cs">
+      <DependentUpon>FormDoctor4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormDoctor2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormDoctor2.Designer.cs">
+      <DependentUpon>FormDoctor2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormDoctor1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormDoctor1.Designer.cs">
+      <DependentUpon>FormDoctor1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormAbout.Designer.cs">
       <DependentUpon>FormAbout.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormDoctor.cs">
+    <Compile Include="Forms\FormDoctors.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormDoctor.Designer.cs">
-      <DependentUpon>FormDoctor.cs</DependentUpon>
+    <Compile Include="Forms\FormDoctors.Designer.cs">
+      <DependentUpon>FormDoctors.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormPatient.cs">
+    <Compile Include="Forms\FormPatient.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormPatient.Designer.cs">
+    <Compile Include="Forms\FormPatient.Designer.cs">
       <DependentUpon>FormPatient.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormPHelp.cs">
+    <Compile Include="Forms\FormPHelp.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormPHelp.Designer.cs">
+    <Compile Include="Forms\FormPHelp.Designer.cs">
       <DependentUpon>FormPHelp.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainForm.cs">
+    <Compile Include="Forms\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainForm.Designer.cs">
+    <Compile Include="Forms\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FormAbout.resx">
+    <EmbeddedResource Include="Forms\FormAbout.resx">
       <DependentUpon>FormAbout.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormPatient.resx">
+    <EmbeddedResource Include="Forms\FormDoctor1.resx">
+      <DependentUpon>FormDoctor1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormDoctors.resx">
+      <DependentUpon>FormDoctors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormPatient.resx">
       <DependentUpon>FormPatient.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormPHelp.resx">
+    <EmbeddedResource Include="Forms\FormPHelp.resx">
       <DependentUpon>FormPHelp.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainForm.resx">
+    <EmbeddedResource Include="Forms\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -118,6 +148,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\123.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doctor1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doctor2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doctor3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doctor4.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

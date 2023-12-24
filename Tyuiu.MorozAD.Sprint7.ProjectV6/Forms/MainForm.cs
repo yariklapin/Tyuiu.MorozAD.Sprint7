@@ -34,5 +34,10 @@ namespace Tyuiu.MorozAD.Sprint7.ProjectV6
             FormDoctor formDoctor = new FormDoctor();
             formDoctor.ShowDialog();
         }
+
+        private void buttonClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

@@ -73,6 +73,46 @@ namespace Tyuiu.MorozAD.Sprint7.ProjectV6.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap doctor1 {
+            get {
+                object obj = ResourceManager.GetObject("doctor1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap doctor2 {
+            get {
+                object obj = ResourceManager.GetObject("doctor2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap doctor3 {
+            get {
+                object obj = ResourceManager.GetObject("doctor3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap doctor4 {
+            get {
+                object obj = ResourceManager.GetObject("doctor4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap kartinki_znak_voprosa_31 {
             get {
                 object obj = ResourceManager.GetObject("kartinki-znak-voprosa-31", resourceCulture);
