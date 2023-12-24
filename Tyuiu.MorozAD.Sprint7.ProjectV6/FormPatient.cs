@@ -38,7 +38,7 @@ namespace Tyuiu.MorozAD.Sprint7.ProjectV6
                         Name = data[1],
                         SureName = data[2],
                         LastName = data[3],
-                        Birthday = int.Parse(data[4])
+                        Age = int.Parse(data[4])
                     };
             return q.ToList();
         }
@@ -60,7 +60,7 @@ namespace Tyuiu.MorozAD.Sprint7.ProjectV6
 
             public string LastName { get; set; }
 
-            public double Birthday { get; set; }
+            public double Age { get; set; }
 
 
 

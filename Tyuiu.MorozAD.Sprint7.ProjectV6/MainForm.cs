@@ -28,5 +28,11 @@ namespace Tyuiu.MorozAD.Sprint7.ProjectV6
             FormAbout formAbout = new FormAbout();
             formAbout.ShowDialog();
         }
+
+        private void buttonDoctor_Click(object sender, EventArgs e)
+        {
+            FormDoctor formDoctor = new FormDoctor();
+            formDoctor.ShowDialog();
+        }
     }
 }

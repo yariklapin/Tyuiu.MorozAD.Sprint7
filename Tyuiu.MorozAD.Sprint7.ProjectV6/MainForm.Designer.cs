@@ -71,6 +71,7 @@ namespace Tyuiu.MorozAD.Sprint7.ProjectV6
             this.buttonDoctor.TabIndex = 1;
             this.buttonDoctor.Text = "Доктора";
             this.buttonDoctor.UseVisualStyleBackColor = false;
+            this.buttonDoctor.Click += new System.EventHandler(this.buttonDoctor_Click);
             // 
             // buttonPat_MAD
             // 

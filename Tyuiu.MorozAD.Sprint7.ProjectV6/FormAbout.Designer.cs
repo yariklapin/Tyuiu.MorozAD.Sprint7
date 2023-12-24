@@ -64,7 +64,7 @@ namespace Tyuiu.MorozAD.Sprint7.ProjectV6
             this.labelAbout.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelAbout.Location = new System.Drawing.Point(0, 0);
             this.labelAbout.Name = "labelAbout";
-            this.labelAbout.Size = new System.Drawing.Size(284, 182);
+            this.labelAbout.Size = new System.Drawing.Size(284, 195);
             this.labelAbout.TabIndex = 2;
             this.labelAbout.Text = resources.GetString("labelAbout.Text");
             // 
